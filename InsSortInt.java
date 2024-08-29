@@ -11,7 +11,7 @@ public class InsSortInt {
              nums[i++] = scanner.nextInt();
         }
         int[] sortArr=sorter(nums);
-        System.out.print(sortArr[0]+" "+sortArr[sortArr.length-1]);
+        System.out.print("Largest "sortArr[0]+" Smallest "+sortArr[sortArr.length-1]);
     }
     public static int[] sorter(int[] numArr){
     int[] tempArr=numArr;
